@@ -1,0 +1,117 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(35, 35, 89);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navitems{
+    display: flex;
+    width: 70%;
+}
+
+.navitems ul{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    width: 100%;
+    list-style: none;
+    text-decoration: none;
+}
+.navitems ul li{
+    display: inline;
+    padding: 0px 2%; 
+}
+.navitems ul li a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    color: white;
+}
+.section1{
+    background-color: rgb(35, 35, 89);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.sometext{
+    width:30%;
+    height: auto;
+    color: white;
+}
+.sometext p{
+    color: rgb(207, 218, 218);
+}
+.sometext button{
+    width: 90px;
+    height: 45px;
+    border: 5px rgb(18, 183, 238) solid;
+    border-radius: 5px;
+    background-color: rgb(18, 183, 238);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+.sometext button:hover{
+    border: 5px rgb(0, 191, 255) solid;
+    background-color: rgb(0, 191, 255);
+    cursor:pointer;
+}
+.someimage{
+    width: 30%;
+    height: 350px;
+    text-align: center;
+    display: flex;
+}
+
+.sectiontext{
+    margin: 20px;
+}
+.section2{
+    width: 80%;
+    height: 600px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    margin: 40px;
+}
+.section2 p{
+    width: 250px;
+    text-align: center;
+    height: auto;
+}
+.box1 .box2 .box3 .box4{
+    width: 300px;
+    height: 400px;
+    text-align: center;
+}
+
+.box1 img, .box2 img, .box3 img, .box4 img{
+    width: 250px;
+    height: 350px;
+}
+/* .box1 p, .box2 p, .box3 p, .box4 p{
+    width: 250px;
+    height: auto;
+} */
+
+.section3{
+    width: 100%;
+    height: 600px;
+    background-color: gainsboro;
+}
